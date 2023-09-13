@@ -6,3 +6,6 @@ from django.http import HttpResponse
 
 def test(request):
     return HttpResponse('Done')
+
+def second(request):
+    return HttpResponse('second')
